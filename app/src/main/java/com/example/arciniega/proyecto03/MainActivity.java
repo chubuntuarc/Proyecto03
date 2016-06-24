@@ -44,6 +44,10 @@ public class MainActivity extends AppCompatActivity {
                 alumno.setNombre(nombre.getText().toString());          // ya que el elemento en la clase aumno corresponde a un String
                 alumno.setaPaterno(aPaterno.getText().toString());
                 alumno.setaMaterno(aMaterno.getText().toString());
+
+                /*
+                    De aquí las operaciones podrían ser de una base de datos local o remota, conversión...
+                 */
             }
         });
     }
